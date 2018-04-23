@@ -1,0 +1,29 @@
+{
+  "name": "mongotest",
+  "version": "1.0.0",
+  "description": "experiment",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon server.js",
+    "lint": "eslint app.js"
+  },
+  "keywords": [
+    "node",
+    "mongo"
+  ],
+  "author": "Chao Chen",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.15",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "nodemon": "^1.17.3"
+  }
+}
